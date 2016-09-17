@@ -4,7 +4,7 @@
   "description": "Bookmark manager for starter kits",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "exit 0"
   },
   "keywords": [],
   "author": "Raathigeshan Kugarajan",
