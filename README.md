@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/Raathigesh/Propel/master/docs/Propel.png" alt="propel banner" align="center" />
 <br />
 <div align="center"><strong>Have your favourite boilerplates with you</strong></div>
-
+<br />
 <p align="center">
   <a href="https://travis-ci.org/Raathigesh/Propel">
     <img src="https://img.shields.io/travis/Raathigesh/Propel.svg?style=flat-square"
