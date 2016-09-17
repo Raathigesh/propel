@@ -1,0 +1,22 @@
+{
+  "name": "propel",
+  "version": "0.0.1",
+  "description": "Bookmark manager for starter kits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Raathigeshan Kugarajan",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "git-clone": "^0.1.0",
+    "inquirer": "^1.1.3",
+    "user-home": "^2.0.0",
+    "yargs": "^5.0.0"
+  },
+  "bin": {
+    "atmo": "index.js"
+  }
+}
