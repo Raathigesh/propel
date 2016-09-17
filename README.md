@@ -25,26 +25,21 @@ $ npm install Propel -g
 ```
 
 ## Usage
-<dl>
-  <dt>Clone a starter kit</dt>
+- Clone a starter kit
+```
+propel
+```
 
-  ```
-  propel
-  ```
-  
 
-  <dt>Add a new starter kit</dt>
+- Add a new starter kit
+```
+propel -a
+```
 
-  ```
-  propel -a
-  ```
-
-  <dt>Remove a start kit</dt>
-
-  ```
-  propel -r
-  ```
-</dl>
+- Remove a start kit
+```
+propel -r
+```
 
 ## License
 MIT © [Raathigeshan](https://twitter.com/Raathigeshan)
