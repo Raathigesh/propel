@@ -17,6 +17,6 @@
     "yargs": "^5.0.0"
   },
   "bin": {
-    "atmo": "index.js"
+    "propel": "index.js"
   }
 }

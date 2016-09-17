@@ -41,11 +41,15 @@ function addStartKit() {
         name: 'kit_url',
         message: 'Git url of the starter kit?'
     }]).then(function (answers) {
-        starterKits.kits.push({
-            name: answers.kit_name,
-            url: answers.kit_url
-        })
-        fs.writeFileSync(starterKitsFile, JSON.stringify(starterKits));
+        if ( starterKits.kits.indexOf(answers.kit_name) > -1) {
+            console.log('There is already a starter kit with the same name. Shall we try a differnt name?')
+        } else {
+            starterKits.kits.push({
+                name: answers.kit_name,
+                url: answers.kit_url
+            })
+            fs.writeFileSync(starterKitsFile, JSON.stringify(starterKits));
+        }
     });
 }
 
@@ -80,7 +84,10 @@ function cloneStarterKit() {
         choices: kit_choices
     }]).then(function (answers) {
         var gitUrl = getUrlByKitName(answers.kit_to_clone);
-        clone(gitUrl, process.cwd());
+        console.log('Cloning starter kit ' + answers.kit_to_clone + ' (' + gitUrl + ')');
+        clone(gitUrl, process.cwd(), function() {
+            console.log("Successfully cloned. Let's get to work.");
+        });
     });
 }
 
