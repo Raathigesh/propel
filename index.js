@@ -25,7 +25,7 @@ if (argv.a) {
     removeStarterKit();
 } else {
     if (starterKits.kits.length === 0) {
-        console.log("No starter kit available. Use the --add option to add a new one.")
+        console.log("No starter kit available. Use the --a option to add a new one.")
     } else {
         cloneStarterKit();
     }
