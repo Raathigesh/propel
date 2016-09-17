@@ -1,6 +1,6 @@
 {
   "name": "propel",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Bookmark manager for starter kits",
   "main": "index.js",
   "scripts": {
