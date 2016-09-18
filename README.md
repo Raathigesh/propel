@@ -23,20 +23,30 @@ $ npm install Propel -g
 ```
 
 ## Usage
-- Clone a starter kit
+Clone a starter kit to the **current working directory**
 ```
 propel
 ```
 
 
-- Add a new starter kit
+Add a new starter kit
 ```
 propel -a
 ```
 
-- Remove a start kit
+Remove a start kit
 ```
 propel -r
+```
+
+Export the current starter kits to a JSON file
+```
+propel -e
+```
+
+Import the starter kits from an exported JSON file **from the current working directory**
+```
+propel -i StaterKit.Json
 ```
 
 ## License

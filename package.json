@@ -10,11 +10,12 @@
   "author": "Raathigeshan Kugarajan",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.1.2",
     "fs-extra": "^0.30.0",
     "git-clone": "^0.1.0",
     "inquirer": "^1.1.3",
-    "user-home": "^2.0.0",
-    "yargs": "^5.0.0"
+    "minimist": "^1.2.0",
+    "user-home": "^2.0.0"
   },
   "bin": {
     "propel": "index.js"
