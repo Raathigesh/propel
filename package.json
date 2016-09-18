@@ -1,6 +1,6 @@
 {
   "name": "propel",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Keep your favorite starter kits just a command away ",
   "main": "index.js",
   "scripts": {
