@@ -17,6 +17,11 @@
   </a>
 </p>
 
+## Why?
+I have certain starter kits I use again and again. But it's always a hassel to keep them bookmarked, to find them when required and then clone to a directory.
+
+**Propel** will remember them and clone to the desired directory for you with a single command.
+
 ## Installation
 ```
 $ npm install Propel -g
