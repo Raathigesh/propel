@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/Raathigesh/Propel/master/docs/Propel.png" alt="propel banner" align="center" />
 <br />
-<div align="center"><strong>Have your favourite boilerplates with you</strong></div>
+<div align="center"><strong>Keep your favorite starter kits available just a command away</strong></div>
 <p></p>
 <p align="center">
   <a href="https://travis-ci.org/Raathigesh/Propel">
