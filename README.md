@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/Raathigesh/Propel/master/docs/Propel.png" alt="propel banner" align="center" />
 <br />
-<div align="center"><strong>Have your favourite boilerplates with you</strong></div>
+<div align="center"><strong>Keep your favorite starter kits just a command away</strong></div>
 <p></p>
 <p align="center">
   <a href="https://travis-ci.org/Raathigesh/Propel">
@@ -16,6 +16,11 @@
          alt="NPM Version">
   </a>
 </p>
+
+## Why?
+I have certain starter kits I use again and again. But it's always a hassel to keep them bookmarked, to find them when required and then clone to a directory.
+
+**Propel** will remember them and clone to the desired directory for you with a single command.
 
 ## Installation
 ```
