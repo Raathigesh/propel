@@ -28,6 +28,8 @@ $ npm install Propel -g
 ```
 
 ## Usage
+<img src="./docs/Propel.gif" alt="propel banner" align="center" />
+
 Clone a starter kit to the **current working directory**
 ```
 propel
