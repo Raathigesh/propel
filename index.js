@@ -93,9 +93,13 @@ function cloneStarterKit() {
         choices: kit_choices
     }]).then(function (answers) {
         var gitUrl = getKitName(answers.kit_to_clone).url;
-        console.log('Cloning starter kit ' + answers.kit_to_clone + ' (' + gitUrl + ')'.blue);
-        clone(gitUrl, process.cwd(), function() {
-            console.log("Successfully cloned. Let's get to work.".green);
+        console.log(colors.blue('Cloning starter kit ' + answers.kit_to_clone + ' (' + gitUrl + ')'));
+        clone(gitUrl, process.cwd(), function(err) {
+            if (err) {
+                console.log(colors.red('Something is wrong. ' + err));
+            } else {
+                console.log("Successfully cloned. Let's get to work.".green);
+            }
         });
     });
 }
