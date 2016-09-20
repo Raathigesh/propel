@@ -24,7 +24,7 @@ Certain starter kits I use again and again. But it's always a hassel to keep the
 
 ## Installation
 ```
-$ npm install Propel -g
+$ npm install propel -g
 ```
 
 ## Usage
